@@ -1,0 +1,60 @@
+{
+    "Plants" : {
+        "Flowers":{
+            "BloodRoot":{
+                "Element": ["Water"],
+                "Healing": {
+                    "Blood":{
+                        "Cleanse" : 0.02
+                    },
+                    "Condition":{
+                        "Fever" : -0.1
+                    },
+                    "Skin":{
+                        "Rashes" : -0.1
+                    }
+                },
+                "SideEffects":{
+                    "Vomiting": 0.3,
+                    "Drowsiness": 0.3
+                },
+                "Overdose":{
+                    "Low": {
+                        "Blood Pressure":0.4
+                    },
+                    "High": ["Death","Coma"]
+                },
+                "Description": "Bloodroot is a plant. People use the underground stem (rhizome) to make medicine.",
+                "Rank":{
+                    "Healing" : 0.1
+                }
+            },
+            "Dandelion":{
+                "Element": ["Wind"],
+                "Healing": {
+                    "Blood":{
+                        "Cleanse" : 0.05
+                    },
+                    "Condition":{
+                        "Anemia" : 0.05
+                    },
+                    "Skin":{
+                    }
+                },
+                "BodyEffects":{
+                    "Laxative": 0.2,
+                    "Blood-Pressure": -0.2
+                },
+                "SideEffects":{
+                    "High":["Liver Failure"]
+                },
+                "Overdose":{
+                },
+                "Description": "Dandelion are a family of flowering plants that grow in many parts of the world.",
+                "Rank":{
+                    "Healing" : 0.1
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "Element": [],
+    "Healing": {
+        "Blood":{
+        },
+        "Condition":{
+        },
+        "Skin":{
+        }
+    },
+    "SideEffects":{
+    },
+    "Overdose":{
+    },
+    "Description": "",
+    "Rank":{
+        "Healing" : 0
+    }
+}
